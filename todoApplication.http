@@ -1,0 +1,27 @@
+GET https://jayasaivardhandttqpnjscprhnky.drops.nxtwave.tech/todos/?priority=HIGH
+###
+
+GET https://jayasaivardhandttqpnjscprhnky.drops.nxtwave.tech/todos/:todoId
+###
+
+POST https://jayasaivardhandttqpnjscprhnky.drops.nxtwave.tech/todos/
+Content-type:application/json
+
+{
+  "id": 10,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TO DO"
+}
+###
+
+PUT  https://jayasaivardhandttqpnjscprhnky.drops.nxtwave.tech/todos/:todoId
+Content-type : application/json 
+
+{
+  "status": "Done"
+}
+###
+
+DELETE https://jayasaivardhandttqpnjscprhnky.drops.nxtwave.tech/todos/:todoId
+###
